@@ -75,7 +75,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0, z: 0}
-  m_LocalScale: {x: 0.97743976, y: 2.3435, z: 2.3435}
+  m_LocalScale: {x: 0.97743976, y: 1.9444531, z: 2.3435}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7919742256651265850}
@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 3489231554693230986}
   m_Layer: 0
   m_Name: PipeButtom
-  m_TagString: Untagged
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,7 +152,7 @@ Transform:
   m_GameObject: {fileID: 9087890158277690602}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.18435141, y: -6, z: 4.4551387}
+  m_LocalPosition: {x: -0.18435141, y: -5.8, z: 4.4551387}
   m_LocalScale: {x: 1.8, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 1023521152357747958}
   m_Layer: 0
   m_Name: PipeUp
-  m_TagString: Untagged
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -282,7 +282,7 @@ Transform:
   m_GameObject: {fileID: 9094357921674722835}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.18435141, y: 6, z: 4.4551387}
+  m_LocalPosition: {x: -0.18435141, y: 5.8, z: 4.4551387}
   m_LocalScale: {x: 1.8, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
