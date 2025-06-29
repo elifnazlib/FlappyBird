@@ -1,6 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
+// This class controls the jump movement of the bird.
 
 public class BirdScript : MonoBehaviour
 {
