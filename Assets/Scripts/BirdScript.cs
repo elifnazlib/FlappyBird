@@ -12,6 +12,7 @@ public class BirdScript : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             birdRB.velocity = Vector2.up * jump_speed;
+            AudioManager.instance.PlaySFX(0);
         }
     }
 }

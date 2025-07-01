@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class GameOver : MonoBehaviour
 {
     [SerializeField] Button restartButton;
+    [SerializeField] BirdScript _birdScript;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -14,6 +15,9 @@ public class GameOver : MonoBehaviour
         {
             Time.timeScale = 0f;
             restartButton.gameObject.SetActive(true);
+            _birdScript.enabled = false;
+            AudioManager.instance.PlaySFX(2);
+            AudioManager.instance.PlaySFX(3);
         }
     }
 

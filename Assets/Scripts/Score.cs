@@ -19,6 +19,7 @@ public class Score : MonoBehaviour
         {
             score++;
             scoreText.text = score.ToString();
+            AudioManager.instance.PlaySFX(1);
         }
     }
 }
