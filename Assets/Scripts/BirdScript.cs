@@ -9,7 +9,7 @@ public class BirdScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         {
             birdRB.velocity = Vector2.up * jump_speed;
             AudioManager.instance.PlaySFX(0);
