@@ -5,8 +5,14 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-    private float score;
+    public int score;
+    public int highScore;
     [SerializeField] TextMeshProUGUI scoreText;
+
+    void Awake()
+    {
+        highScore = PlayerPrefs.GetInt("HighScore");
+    }
 
     void Start()
     {
@@ -18,6 +24,12 @@ public class Score : MonoBehaviour
         if (other.gameObject.CompareTag("Scorer"))
         {
             score++;
+
+            if (score > highScore)
+            {
+                highScore = score;
+            }
+
             scoreText.text = score.ToString();
             AudioManager.instance.PlaySFX(1);
         }

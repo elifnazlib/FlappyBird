@@ -9,6 +9,7 @@ public class StartGame : MonoBehaviour
     [SerializeField] GameObject pipeSpawner;
     [SerializeField] BirdScript _birdScript;
     [SerializeField] TextMeshProUGUI scoreText;
+    [SerializeField] TextMeshProUGUI highScoreText;
     [SerializeField] Button startButton;
 
     void Start()
